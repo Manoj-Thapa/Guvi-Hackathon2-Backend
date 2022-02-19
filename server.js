@@ -34,7 +34,7 @@ app.use("/api/cart", cartRoute);
 app.get("/", (req, res) => {
   res.json({
     message:
-      "To visit our Rental App got to https://guvi-hackathon2-manojkumarthapa.netlify.app",
+      "To visit our Rental App go to https://guvi-hackathon2-manojkumarthapa.netlify.app",
   });
 });
 
